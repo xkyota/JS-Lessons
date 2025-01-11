@@ -38,12 +38,34 @@
 
 
 
-const paragraph = document.querySelector('.paragraph');
-const addButton = document.querySelector('.add-button');
-const removeButton = document.querySelector('.remove-button');
+// const paragraph = document.querySelector('.paragraph');
+// const addButton = document.querySelector('.add-button');
+// const removeButton = document.querySelector('.remove-button');
 
-paragraph.classList.add('highlight');
-paragraph.classList.remove('highlight');
 
+const myParagraph = document.querySelector('.fkngjs');
+// myParagraph.classList.add('soloma');
+
+myParagraph.classList.toggle('my-class');
+
+
+
+
+
+
+
+// const myBtn = document.querySelector(".helloWorld"); 
+// myBtn.style.color = "red"; 
+
+
+
+// const myInput = document.querySelector(".myInput"); 
+// myInput.value = "Hello World!"; 
+
+// const myCheckbox = document.querySelector(".myCheckbox"); 
+// myCheckbox.checked = 1;  
+
+// const myOption = document.querySelector(".slon"); 
+// myOption.textContent = "Hello world!"; 
 
 
